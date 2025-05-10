@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LeBron Birthday Surprise</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <main class="container">
+
+        <!-- LeScam part -->
+        <section id="setup">
+            <h1>Hey, what's up?</h1>
+            <p>I'm LeBron James. I need your help — please type in your full name and birthdate.</p>
+            <img src="images/lebronsilly.jpg" alt="LeBron James" class="main-image" />
+            <input id="name" type="text" placeholder="Full Name" />
+            <input id="bday" type="date" />
+            <button onclick="showGift()">Submit</button>
+        </section>
+
+        <!-- leCrystal Part-->
+        <section id="reveal" class="hidden">
+            <h2>🎉 Happy Birthday <span id="userName"></span>!</h2>
+            <p>You’ve been pranked by the King 👑 Just kidding... here’s a gift:</p>
+            <img src="images/crystalyang.jpg" alt="Birthday Crystal Image" class="main-image" />
+            <a href="https://www.amazon.com/giftcard" target="_blank">🎁 Claim your gift card</a>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
