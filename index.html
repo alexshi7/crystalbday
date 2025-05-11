@@ -24,13 +24,23 @@
         <!-- leCrystal Part-->
         <section id="reveal" class="hidden">
             <h2>🎉 Happy Birthday <span id="userName"></span>!</h2>
-            <p>You’ve been pranked by the King 👑 Just kidding... here’s a gift:</p>
-            <img src="images/crystalyang.jpg" alt="Birthday Crystal Image" class="main-image" />
-            <a href="https://www.amazon.com/giftcard" target="_blank">🎁 Claim your gift card</a>
+            <img src="images/crystalyang.jpg" alt="Birthday Crystal Image" class="main-image" style="margin: 0 auto;"/>
+            <p>You’ve been pranked by the King 👑 Just kidding... here’s a birthday cake:</p>
+            <div id="cakeZone" class="side-by-side">
+                <img id="cakeImage" src="images/cake1.jpg" alt="Birthday Cake" class="main-image" />
+                <button onclick="newCake()">🎂 New Cake Please!</button>
+            </div>
+            <br>
+            <p>And here's a gift: </p>
+            <a href="https://www.amazon.com/giftcard" 
+                    target="_blank" 
+                    style="display: block; margin: 0 auto;">
+                    🎁 Claim your gift card (100% legit)
+            </a>
         </section>
 
     </main>
-
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
     <script src="script.js"></script>
 </body>
 

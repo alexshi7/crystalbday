@@ -46,3 +46,32 @@ a {
     margin: 20px 0;
     border-radius: 12px;
 }
+
+.side-by-side {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#cakeZone img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 12px;
+}
+
+#cakeZone button {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border: none;
+    background-color: pink;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#cakeZone button:hover {
+    background-color: hotpink;
+    color: white;
+}
